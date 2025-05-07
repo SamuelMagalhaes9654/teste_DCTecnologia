@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('vendas') }}">Vendas</a>
+                        <a class="nav-link" href="{{ route('vendas.index') }}">Vendas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('clientes.index') }}">Cliente</a>

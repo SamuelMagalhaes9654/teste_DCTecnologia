@@ -3,7 +3,7 @@
 @section('title', 'Home')
 @if(auth()->check())
     @section('content')
-    {{auth()->user()->name}}
+    {{auth()->user()->id}}
     @endsection
 @else
 

@@ -10,4 +10,8 @@ class Cliente extends Model
         'name',
         'cpf',
     ];
+
+    public function vendas(){
+        return $this->hasMany(Venda::class);
+    }
 }
